@@ -1,0 +1,14 @@
+spec:
+  containers:
+    - image: xxxxxx/house-price-model:latest
+      name: house-price-model
+      ports:
+        - containerPort: 8000
+      # Add the following spec
+      resources:
+        requests:
+          cpu: "50m"
+          memory: "64Mi"
+        limits:
+          cpu: "100m"
+          memory: "128Mi"
