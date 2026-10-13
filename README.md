@@ -172,7 +172,7 @@ Accede a la interfaz de MLflow en [http://localhost:5555](http://localhost:5555)
 
 ## Flujo de trabajo paso a paso
 
-### Paso 1 — Procesado de datos
+### Paso 1 — Procesado de datos 2026
 
 ```bash
 python src/data/run_processing.py   --input data/raw/house_data.csv   --output data/processed/cleaned_house_data.csv
